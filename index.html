@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <title>Icon Template Square</title>
+        <style>
+            .row{
+            width: 720px;
+            margin: 10px auto 10px auto;
+        }
+
+        .image-container {
+            display: table-cell;
+            vertical-align: middle;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body style="background-color: rgb(146, 191, 210)"></body>
+
+    <div class="row">
+        <div class="image-container"><img id="x1" src="images/changed/0.png" height="200" width="200" /></div>
+        <div class="image-container"><img id="x2" src="images/changed/1.png" height="200" width="200" /></div>
+        <div class="image-container"><img id="x3" src="images/changed/2.png" height="200" width="200" /></div>
+    </div>
+
+    <div class="row">
+        <div class="image-container"><img id="x4" src="images/changed/3.png" height="200" width="200" /></div>
+        <div class="image-container"><img id="x5" src="images/changed/4.png" height="200" width="200" /></div>
+        <div class="image-container"><img id="x6" src="images/changed/5.png" height="200" width="200" /></div>
+    </div>
+
+    <div class="row">
+        <div class="image-container"><img id="x7" src="images/changed/6.png" height="200" width="200" /></div>
+        <div class="image-container"><img id="x8" src="images/changed/7.png" height="200" width="200" /></div>
+        <div class="image-container"><img id="x9" src="images/changed/8.png" height="200" width="200" /></div>
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    const x1 = document.getElementById('x1')
+    const x1_audio = new Audio('sounds/0.mp3')
+    x1.onpointerdown = () => {
+        x1_audio.play()
+        x1.src = 'images/origina/0.png'
+        setTimeout (() => x1.src = 'images/changed/0.png', 1000)
+    }
+    x1.onpointerover = () => x1.src = 'images/origina/0.png'
+    x1.onpointerout = () => x1.src = 'images/changed/0.png'
+
+    const x2 = document.getElementById('x2')
+    const x2_audio = new Audio('sounds/1.mp3')
+    x2.onpointerdown = () => {
+        x2_audio.play()
+        x2.src = 'images/origina/1.png'
+        setTimeout (() => x2.src = 'images/changed/1.png', 1000)
+    }
+    x2.onpointerover = () => x2.src = 'images/origina/1.png'
+    x2.onpointerout = () => x2.src = 'images/changed/1.png'
+
+    const x3 = document.getElementById('x3')
+    const x3_audio = new Audio('sounds/2.mp3')
+    x3.onpointerdown = () => {
+        x3_audio.play()
+        x3.src = 'images/origina/2.png'
+        setTimeout (() => x3.src = 'images/changed/2.png', 1000)
+    }
+    x3.onpointerover = () => x3.src = 'images/origina/2.png'
+    x3.onpointerout = () => x3.src = 'images/changed/2.png'
+
+    const x4 = document.getElementById('x4')
+    const x4_audio = new Audio('sounds/3.mp3')
+    x4.onpointerdown = () => {
+        x4_audio.play()
+        x4.src = 'images/origina/3.png'
+        setTimeout (() => x4.src = 'images/changed/3.png', 1000)
+    }
+    x4.onpointerover = () => x4.src = 'images/origina/3.png'
+    x4.onpointerout = () => x4.src = 'images/changed/3.png'
+
+    const x5 = document.getElementById('x5')
+    const x5_audio = new Audio('sounds/4.mp3')
+    x5.onpointerdown = () => {
+        x5_audio.play()
+        x5.src = 'images/origina/4.png'
+        setTimeout (() => x5.src = 'images/changed/4.png', 1000)
+    }
+    x5.onpointerover = () => x5.src = 'images/origina/4.png'
+    x5.onpointerout = () => x5.src = 'images/changed/4.png'
+
+    const x6 = document.getElementById('x6')
+    const x6_audio = new Audio('sounds/5.mp3')
+    x6.onpointerdown = () => {
+        x6_audio.play()
+        x6.src = 'images/origina/5.png'
+        setTimeout (() => x6.src = 'images/changed/5.png', 1000)
+    }
+    x6.onpointerover = () => x6.src = 'images/origina/5.png'
+    x6.onpointerout = () => x6.src = 'images/changed/5.png'
+
+    const x7 = document.getElementById('x7')
+    const x7_audio = new Audio('sounds/6.mp3')
+    x7.onpointerdown = () => {
+        x7_audio.play()
+        x7.src = 'images/origina/6.png'
+        setTimeout (() => x7.src = 'images/changed/6.png', 1000)
+    }
+    x7.onpointerover = () => x7.src = 'images/origina/6.png'
+    x7.onpointerout = () => x7.src = 'images/changed/6.png'
+
+    const x8 = document.getElementById('x8')
+    const x8_audio = new Audio('sounds/7.mp3')
+    x8.onpointerdown = () => {
+        x8_audio.play()
+        x8.src = 'images/origina/7.png'
+        setTimeout (() => x8.src = 'images/changed/7.png', 1000)
+    }
+    x8.onpointerover = () => x8.src = 'images/origina/7.png'
+    x8.onpointerout = () => x8.src = 'images/changed/7.png'
+
+    const x9 = document.getElementById('x9')
+    const x9_audio = new Audio('sounds/8.mp3')
+    x9.onpointerdown = () => {
+        x9_audio.play()
+        x9.src = 'images/origina/8.png'
+        setTimeout (() => x9.src = 'images/changed/8.png', 1000)
+    }
+    x9.onpointerover = () => x9.src = 'images/origina/8.png'
+    x9.onpointerout = () => x9.src = 'images/changed/8.png'
+</script>
